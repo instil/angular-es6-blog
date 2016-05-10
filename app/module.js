@@ -1,3 +1,6 @@
+import angular from 'angular';
+import angularRoute from 'angular-route';
+
 import MainStyle from './main.css';
 
 import Router from './router';
