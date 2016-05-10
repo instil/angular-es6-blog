@@ -1,0 +1,20 @@
+html {
+	font-family: sans-serif;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+h3 span.text-danger {
+	font-size: 14px;
+}
+
+textarea { 
+	resize: vertical; 
+}

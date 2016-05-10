@@ -1,0 +1,46 @@
+<div class="main-content container">
+	<div>
+		<h1>ES6 Compiler</h1>
+		<h3>Select an example</h3>
+		<select class="col-md-12" ng-change="controller.showExample(selectedExample)" ng-init="selectedExample = 'default'" ng-model="selectedExample">
+			<option value="default">Default</option>
+			<option value="let">Let</option>
+			<option value="arrowFunctions">Arrow Functions</option>
+			<option value="defaultParams">Default Params</option>
+			<option value="variadicParams">Variadic Params</option>
+			<option value="simpleObjects">Simple Object Defination</option>
+			<option value="methodProperties">Method Properties</option>
+			<option value="destructuring">Destructuring Objects on Assignment</option>
+			<option value="imports">Imports</option>
+			<option value="classes">Classes</option>
+			<option value="staticFunctions">Static Functions</option>
+			<option value="iterables">Iterables</option>
+			<option value="generatorFunctions">Generators</option>
+			<option value="sets">Sets</option>
+			<option value="propertyAssignment">Property Assignment</option>
+			<option value="arraysFind">Arrays Find</option>
+			<option value="stringRepeating">Repeat Strings</option>
+			<option value="promises">Promises</option>
+		</select>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h3>ES6 code to compile</h3>
+				<textarea class="form-control" ng-change="controller.es6CodeChanged()" ng-model="controller.es6Code" rows="15" allow-tab></textarea>
+			</div>
+
+			<div class="col-md-6">
+				<h3>Compiled Javascript <span class="text-danger" ng-show="controller.compilerLoading">Loading...<span></h3>
+				<pre class="text-danger" ng-show="controller.compileErrorMessage">{{controller.compileErrorMessage}}></pre>
+				<pre ng-show="!controller.compileErrorMessage">{{controller.compiledJavascript}}</pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<h3>Execution result <span class="text-danger" ng-show="controller.executionLoading">Loading...<span></h3>
+			<pre ng-show="!controller.executeResult && !controller.executeResult">{{controller.executionInstructions}}</pre>
+			<pre ng-show="!controller.executeErrorMessage && controller.executeResult">{{controller.executeResult}}</pre>
+			<pre class="text-danger" ng-show="controller.executeErrorMessage">{{controller.executeErrorMessage}}</pre>
+		</div>
+	</div>
+</div>
