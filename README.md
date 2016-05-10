@@ -12,6 +12,10 @@
 
 `webpack --watch`
 
+## Live app
+
+[http://angular-es6-blog.herokuapp.com/#/](http://angular-es6-blog.herokuapp.com/#/)
+
 ## Screenshot
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/14013708/15150158/fe0242a0-16c3-11e6-90ad-c5f4aef1b559.png)
