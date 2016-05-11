@@ -10,7 +10,7 @@
 
 ## Blog post
 
-[http://instil.co/2016/05/06/fear-in-tech/](http://instil.co/2016/05/10/angular_1_with_es6/)
+[http://instil.co/2016/05/10/angular-1-es6/](http://instil.co/2016/05/10/angular-1-es6/)
 
 ## Watch
 
