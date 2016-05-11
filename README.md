@@ -8,13 +8,13 @@
 - Start http-server `http-server -p 8000`.
 - Navigate to url `localhost:8000`.
 
-## Blog post
-
-[http://instil.co/2016/05/10/angular-1-es6/](http://instil.co/2016/05/10/angular-1-es6/)
-
 ## Watch
 
 `webpack --watch`
+
+## Blog post
+
+[http://instil.co/2016/05/10/angular-1-es6/](http://instil.co/2016/05/10/angular-1-es6/)
 
 ## Live app
 
