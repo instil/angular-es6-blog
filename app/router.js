@@ -7,7 +7,7 @@ export default function routerConfig ($provide, $routeProvider) {
 
   $routeProvider
     .when('/', {
-      name: 'login',
+      name: 'compiler',
       templateUrl: CompilerController.getTemplateUrl(),
       controllerAs: CompilerController.getControllerTemplateName(),
       controller: CompilerController,
