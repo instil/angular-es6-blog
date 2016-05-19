@@ -1,7 +1,5 @@
 export default class AllowTabDirective {
   constructor () {
-    'ngInject';
-
     let linkFunction = (scope, element) => {
       element.bind('keydown keyup', (event) => {
         let element = event.target;
