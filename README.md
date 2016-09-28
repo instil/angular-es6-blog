@@ -14,7 +14,7 @@
 
 ## Blog post
 
-[http://instil.co/2016/05/10/angular-1-es6/](http://instil.co/2016/05/10/angular-1-es6/)
+[http://instil.co/2016/09/27/angular-1-es6/](http://instil.co/2016/09/27/angular-1-es6/)
 
 ## Live app
 
